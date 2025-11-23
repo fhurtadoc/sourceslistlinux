@@ -11,5 +11,6 @@ deb http://deb.debian.org/debian bookworm-updates main contrib non-free
 deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free
 
 # Repositorios opcionales de backports (paquetes más recientes)
-deb http://deb.debian.org/debian bookworm-backports main contrib non-free
-deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free
+#deb http://deb.debian.org/debian bookworm-backports main contrib non-free
+#deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free
+
