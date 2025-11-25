@@ -1,16 +1,6 @@
-# Repositorios principales
-deb http://deb.debian.org/debian bookworm main contrib non-free
-deb-src http://deb.debian.org/debian bookworm main contrib non-free
-
-# Actualizaciones de seguridad
-deb http://deb.debian.org/debian-security bookworm-security main contrib non-free
-deb-src http://deb.debian.org/debian-security bookworm-security main contrib non-free
-
-# Paquetes actualizados y correcciones
-deb http://deb.debian.org/debian bookworm-updates main contrib non-free
-deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free
-
-# Repositorios opcionales de backports (paquetes más recientes)
-#deb http://deb.debian.org/debian bookworm-backports main contrib non-free
-#deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free
+# TYPE URI                       SUITE    COMPONENTS...
+deb http://deb.debian.org/debian bookworm main non-free-firmware
+deb http://deb.debian.org/debian bookworm-updates main non-free-firmware
+deb-src http://deb.debian.org/debian bookworm main non-free-firmware
+deb-src http://deb.debian.org/debian bookworm-updates main non-free-firmware
 
